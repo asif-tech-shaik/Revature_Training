@@ -1,0 +1,104 @@
+✅ SDLC (Software Development Life Cycle)
+
+SDLC is the step-by-step journey a software project takes from an idea to a working product delivered to users. It includes phases like:
+
+✔ Requirement
+✔ Analysis
+✔ Design
+✔ Development
+✔ Testing
+✔ Deployment
+✔ Maintenance 
+
+1.SDLC
+
+Where do requirements come from?
+Clients tell companies what they need, companies gather the requirements, and build the product. In product-based companies, all these steps happen within the company. 
+
+1.SDLC
+
+🎨 Think of SDLC like building a house:
+
+First plan with the owner (Requirement)
+
+Create blueprint (Design)
+
+Build (Development)
+
+Inspect (Testing)
+
+Hand over keys (Deployment)
+
+Fix issues later (Maintenance)
+
+✅ Models of SDLC
+
+These are different styles of completing those phases. Your file lists:
+
+Waterfall Model (Linear / Sequential)
+
+Spiral Model
+
+RAD Model
+
+Prototype Model
+
+V Model
+
+Iterative Model
+
+Agile Model 
+
+2.Models of SDLC
+
+⭐ Waterfall Model
+
+Phases go one by one in order
+
+Next step starts only after the previous finishes
+
+If requirements change, entire process restarts 
+
+2.Models of SDLC
+
+💡 Imagine climbing down a real waterfall. You can’t swim back up when you forget your phone.
+
+✅ Agile Model
+
+Modern, flexible, fast development.
+Key features:
+
+✔ Continuous feedback
+✔ Development and testing happen in parallel
+✔ Iterative and Incremental
+✔ Adaptive to changes
+✔ Frequent software delivery
+✔ Continuous team communication
+✔ Self-organizing teams 
+
+3.AGILE MODEL
+
+Created around 1998-1999. It is a methodology, not a tool. 
+
+3.AGILE MODEL
+
+📌 Why Agile?
+Because in Waterfall, clients can’t see progress and don’t know what developers are currently building. Agile fixes that. 
+
+3.AGILE MODEL
+
+✨ Agile in simple fun words
+
+Instead of delivering a full pizza after 2 hours, Agile gives slices early:
+
+The customer tastes each slice
+
+Suggests changes
+
+Final pizza becomes exactly what they want
+
+📍 In short: Best Takeaway
+Topic	Meaning
+SDLC	Full lifecycle of software creation
+Waterfall	Fixed plan, no going back, slow to change
+Agile	Flexible, fast, continuous improvement

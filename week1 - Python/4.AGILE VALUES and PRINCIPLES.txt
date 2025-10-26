@@ -1,0 +1,10 @@
+	AGILE VALUES and PRINCIPLES:
+			
+			VALUES:
+				. Individuals and Interactions (over processes and tools)
+				. Working Software (over comprehensive documentation)
+				. Customer Collaboration (over contract negotiation)
+				. Responding to change (over following a plan)
+
+			PRINCIPLES:
+				. there are 12 principles

@@ -1,0 +1,18 @@
+modularized
+=>In Python, modularizing means splitting your code into separate .py files (modules) and folders (packages) so you can import and reuse parts easily, keeping your code organized and maintainable.
+
+IDE----Integrated Development Environment
+1.write code
+2.Debug code
+3.complie code
+4.save code
+5.excute code
+6.modifty or edit code
+
+Conitional Statement
+=>branch:
+if:
+   if, if else, nested if, if else ladder
+   match case
+loop
+   do, while, for range, for each

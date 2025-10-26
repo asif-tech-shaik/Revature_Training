@@ -1,0 +1,31 @@
+AGILE ARTIFACTS:
+
+	1.user story (comes from client) 
+		-> {written by PRODUCT OWNER or  SCRUM MASTER}
+		-> mostly written by SCRUM MASTER (Business Analyst)
+		-> comes from client 
+		-> but written as:
+				{           As a<role>
+				             I want/need to <activity>
+				             so that i can <goal>                }
+		-> Acceptance criteria : username must have min of 8 char , password is like .....
+
+		
+	2.story points 
+		-> from sprint planning meeting story points are written
+		-> story points tells the complexity of the user story
+		-> the points are given using FIBINACCI SERIES (excluding 0 and 1) {2,3,5,8.....} 
+
+	3.product backlog
+		-> overall (all features of the product) pending tasks or features to be finished for entire product
+
+	4.sprint backlog
+		-> if any features are left to complete in any specific sprint:
+					. if any clarification needed for that features then it goes to product backlog
+					. if not i.e features are pending due to not having the time then it goes to sprint backlog
+
+
+	5.burndown charts
+		-> at end of sprint review meet , the charts are given
+		-> charts will describe how the week went  
+		-> there are many charts : velocity chart, 

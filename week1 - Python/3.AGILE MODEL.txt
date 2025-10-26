@@ -1,0 +1,20 @@
+AGILE MODEL:
+
+	.Continues feedback
+	.parallel phases (dev and test)
+	
+		.designed in 1998-1999
+		. Agile model is a process not any tool. Its a process or methodology
+		. How the Agile model be?
+			- > It's Iterative and Incremental
+			- > Adaptive
+			-> s/w freq
+			- > communication with ->team
+			-> self organizing team
+		
+	.Problem with Waterfall:
+		-> clients can't see there the project phase is under or on what feature do dev team working on
+
+	.ITERATIVE:
+		.Until the product finish everything can be done again and again
+

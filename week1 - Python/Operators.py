@@ -335,22 +335,251 @@ b'\xff\xfea\x00s\x00i\x00f\x00'
 str.replace('i','a')
     
 'asaf'
->>> str.split()
-...     
+str.split()
+    
 ['asif']
->>> str1='hello asif how are you'
-...     
->>> str1.split()
-...     
+str1='hello asif how are you'
+    
+str1.split()
+    
 ['hello', 'asif', 'how', 'are', 'you']
->>> str1.split('o')
-...     
+str1.split('o')
+    
 ['hell', ' asif h', 'w are y', 'u']
->>> str1.join(str)
-...     
+str1.join(str)
+    
 'ahello asif how are youshello asif how are youihello asif how are youf'
->>> str2='      mohammad    '
-...     
->>> str2.strip()
-...     
+str2='      mohammad    '
+    
+str2.strip()
+    
 'mohammad'
+id(str2)
+    
+2441736947888
+numbers=[10,20,30]
+    
+numbers
+    
+[10, 20, 30]
+numbers.append(40)
+    
+numbers
+    
+[10, 20, 30, 40]
+numbers[3]
+    
+40
+numbers[2]=300
+    
+numbers
+    
+[10, 20, 300, 40]
+numbers.count(20)
+    
+1
+numbers.index(20)
+    
+1
+numbers.index(300)
+    
+2
+numbers.insert(4,500)
+    
+numbers.remove(300)
+    
+numbers.pop()
+    
+500
+numbers.pop(-2)
+    
+20
+numbers
+    
+[10, 40]
+numbers.reverse()
+    
+numbers
+    
+[40, 10]
+numbers.sort()
+    
+numbers
+    
+[10, 40]
+num5=numbers.copy()
+    
+num5
+    
+[10, 40]
+id(numbers)
+    
+2441736952768
+id(num5)
+    
+2441736599104
+numbers.extend(num1)
+    
+Traceback (most recent call last):
+  File "<pyshell#134>", line 1, in <module>
+    numbers.extend(num1)
+TypeError: 'int' object is not iterable
+numbers.extend(num5)
+    
+numbers
+    
+[10, 40, 10, 40]
+numbers.clear()
+    
+numbers
+    
+[]
+del(numbers)
+    
+numbers
+    
+Traceback (most recent call last):
+  File "<pyshell#140>", line 1, in <module>
+    numbers
+NameError: name 'numbers' is not defined. Did you forget to import 'numbers'?
+tupl=(10,20,30)
+    
+tup1
+    
+Traceback (most recent call last):
+  File "<pyshell#142>", line 1, in <module>
+    tup1
+NameError: name 'tup1' is not defined. Did you mean: 'tupl'?
+tupl
+    
+(10, 20, 30)
+tupl.count(10)
+    
+1
+tupl.index(30)
+    
+2
+tupl.clear()
+    
+Traceback (most recent call last):
+  File "<pyshell#146>", line 1, in <module>
+    tupl.clear()
+AttributeError: 'tuple' object has no attribute 'clear'
+del(tupl)
+    
+tupl
+    
+Traceback (most recent call last):
+  File "<pyshell#148>", line 1, in <module>
+    tupl
+NameError: name 'tupl' is not defined. Did you mean: 'tuple'?
+set1={10,20,30,40,50}
+    
+set1
+    
+{50, 20, 40, 10, 30}
+set1.add(100)
+    
+set1
+    
+{50, 20, 100, 40, 10, 30}
+set2={90,80,70,60,50}
+    
+set1.union(Set2)
+    
+Traceback (most recent call last):
+  File "<pyshell#154>", line 1, in <module>
+    set1.union(Set2)
+NameError: name 'Set2' is not defined. Did you mean: 'set2'?
+set1.union(set2)
+    
+{100, 70, 40, 10, 80, 50, 20, 90, 60, 30}
+set1.intersection(set2)
+    
+{50}
+set1.diiference(set2)
+    
+Traceback (most recent call last):
+  File "<pyshell#157>", line 1, in <module>
+    set1.diiference(set2)
+AttributeError: 'set' object has no attribute 'diiference'. Did you mean: 'difference'?
+set3=set1.diiference(set2)
+    
+Traceback (most recent call last):
+  File "<pyshell#158>", line 1, in <module>
+    set3=set1.diiference(set2)
+AttributeError: 'set' object has no attribute 'diiference'. Did you mean: 'difference'?
+set1.difference(set2)
+    
+{100, 40, 10, 20, 30}
+set1.discard(20)
+    
+set1
+    
+{50, 100, 40, 10, 30}
+dict1={1:10,2:20}
+    
+dict1
+    
+{1: 10, 2: 20}
+dict1[2]
+    
+20
+dict1[2]=300
+    
+dict1
+    
+{1: 10, 2: 300}
+dict2={'rno':'123','name':'Asif'}
+    
+dict2
+    
+{'rno': '123', 'name': 'Asif'}
+dict2['rno']
+    
+'123'
+dict2['rno']=123
+    
+dict2['rno']
+
+123
+dict2['ph']=12232456789
+    
+dicts
+    
+Traceback (most recent call last):
+  File "<pyshell#173>", line 1, in <module>
+    dicts
+NameError: name 'dicts' is not defined. Did you mean: 'dict1'?
+dicts
+    
+Traceback (most recent call last):
+  File "<pyshell#174>", line 1, in <module>
+    dicts
+NameError: name 'dicts' is not defined. Did you mean: 'dict1'?
+dict2
+    
+{'rno': 123, 'name': 'Asif', 'ph': 12232456789}
+ph=dict2.get('ph')
+    
+ph
+...     
+12232456789
+>>> dict2.keys()
+...     
+dict_keys(['rno', 'name', 'ph'])
+>>> dict2.values()
+...     
+dict_values([123, 'Asif', 12232456789])
+>>> dict2.pop()
+...     
+Traceback (most recent call last):
+  File "<pyshell#180>", line 1, in <module>
+    dict2.pop()
+TypeError: pop expected at least 1 argument, got 0
+>>> dict1.pop(2)
+...     
+300
+>>> dict1
+...     
+{1: 10}

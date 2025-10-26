@@ -1,0 +1,16 @@
+Ceremonies/meetings
+
+	.A meeting condacted with the whole team
+
+		1.release planning meet
+		2.sprint planning meet
+			. no. of sprints
+			. duration 
+			. no. of features
+			. who do what
+		3.daily stand up
+			. this will happen b/w scrum master and the team 
+		4.Sprint review meet
+			.a presentation/demon should be given
+		5. Sprint retrospective meet
+			. after completing the one sprint there is this meet

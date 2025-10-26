@@ -1,0 +1,15 @@
+SCRUM:
+
+	there are 3 main roles:
+		1.Product owner (Project manager) (one who lead the product)
+			.Responsible for the product
+			.Product owner only talks with the business owners (client) or stakeholder
+			.He handles multiple projects
+		2.scrum master (business analysistes)
+			.role given who have knowledge to develop the whole product individually 
+			. he is liaison
+			. maintain the daily progress
+			. he is there to help the team 
+		3. The Team
+			.all peoples dev, test, design team, ops team
+

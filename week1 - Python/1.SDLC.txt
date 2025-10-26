@@ -1,0 +1,21 @@
+SDLC:
+
+1.requirement 
+2.analysis
+3.design
+4.development
+5.testing
+6.deployment
+7.post implementation / maintenance
+
+
+1.Requirement :
+	Where are the req.s comes from ??
+		. Comes from clients(ex: bank) to service providers  (companies)
+		.clients explain the NEEDS
+		. company geather the REQ.s
+		.developes the PRODUCT
+
+
+	In case of PRODUCT BASED COMPANIES ,the needs and req.s and product development can all take case in company only.
+

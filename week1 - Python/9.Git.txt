@@ -1,0 +1,78 @@
+Git:
+
+	Git-tool ; 
+	
+	GitHub - repository
+
+GIT LIFE CYCLE:
+
+	1.working directory (git add) or git commit -a
+	2.staging area (git commit)
+	3.local repo (git push)
+	4.remote repo
+
+
+
+GIT: VERSION CONTROL SYSTEM
+
+	git init
+	git config --global user.name "........"
+	git config --global user.email "..........."
+	git status
+	git add "<file>"
+	git commit -m "......"
+	git remote add origin "....github link"
+	git push -u origin master
+	
+................GIT PULL/CLONE.........................
+
+	git clone/pull/rebase
+
+	push-->upload doc
+
+	pull--> updates your existing local repo (git fetch + git merge) or download doc
+		if any changes occur in remote repo to apply the changes on our local repo we do PULL
+		
+		git pull
+
+	clone--> new local copy of the remote repo  
+
+		git clone <repo_link>
+
+.............................................................................
+
+BRANCHING:
+
+	Hotfix : error in the feature/ version
+
+
+	How to branch ?
+		
+		git branch : list all branches in the repo
+		git branch <name> : a new branch is created named <name>
+		git checkout <branchName> : switching into the branches
+		
+		
+...............................................................................
+
+Merging :
+
+	to merge the branches you must be a master or main
+
+	example: 	branchName as dev1
+		.the dev 1 has committed his work
+		.now master need to merge that dev1 work into the main branch 
+		. so the master as do
+				.git merge dev1 
+				.and then do these git add ., git commit and finally git push -u origin master  
+
+
+....................................................................................................
+
+OTHER GIT COMMANDS:
+
+	git log:  shows the all commits we have done as the branchName has listed
+
+
+
+

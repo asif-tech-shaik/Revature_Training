@@ -317,24 +317,160 @@ Data Structures:
 =>A data structure is a way to store, organize, and manage data so it can be used efficiently.
 =>List, Tuple, Set, Dict
 
+==>list:
+=>Represent-[] and that are ordered and changeable
+=>It allow the duplicates
+=>it is mutable
+=>it can access by numbers indexs
+=>order of insertions
+numbers=[10,20,30] 
+numbers 
+[10, 20, 30]
+numbers.append(40)--- it can be add the data in last   
+numbers 
+[10, 20, 30, 40]
+numbers[2]=300----it modifty the index
+=>Methods
+count:
+numbers.count(20)    
+1
+index:
+numbers.index(30)   
+2
+=>insert:
+numbers.insert(4,500)
+=>remove
+numbers.remove(300)
+=>pop
+numbers.pop()    ---- if don,t give anything it has pop last elements  
+500
+numbers.pop(-2) ---index has given
+20
+=>reserve  ---- it change the order
+numbers.reverse()   
+numbers    
+[40, 10]
+=>sort ---- it sorted in ascending order
+numbers.sort()   
+numbers   
+[10, 40]
+=>copy  --- it copy to another the variable and it has the different addresses
+num5=numbers.copy()  
+num5   
+[10, 40]
+=>extend --- it has the concate the 2 lists
+numbers.extend(num5)   
+numbers  
+[10, 40, 10, 40]
+=>clear --- it has the clear the list and become the empty
+numbers.clear()  
+numbers   
+[]
+=>del --- it has the delete
+del(numbers)   
+numbers  
+Traceback (most recent call last):
+  File "<pyshell#140>", line 1, in <module>
+    numbers
+NameError: name 'numbers' is not defined. Did you forget to import 'numbers'?
+
+
+=> to get address it has - id(variable)
+id(str2)   
+2441736947888
+
+==>Tuple:: ---- double '_' are dradans or magic methods
+=>A tuple in Python is an ordered and immutable collection of items --- we can't modifty 
+=> it respresent--()
+=>it allow dulipcates
+=>it is immutable and read only
+=> number index is available
+=>order of insertions
+tupl=(10,20,30)
+
+Methods
+=>count
+tupl.count(10) 
+1
+=>index
+tupl.index(30)    
+2
+
+==>Set
+=> it represent in {}
+=>it has to be unique or Duplicate elements are automatically removed.
+=> and the mutable
+=>no index iterate
+=> it doesn't in order of insertions
+Methods:
+=>add
+set1.add(100)   
+set1   
+{50, 20, 100, 40, 10, 30}
+=>Union  --- it remove the same elements which is present in 2 sets
+set1={10,20,30,40,50}
+set2={90,80,70,60,50}
+set1.union(set2)  
+{100, 70, 40, 10, 80, 50, 20, 90, 60, 30}
+=>Intersection --- it give the the same elements which is present in 2 sets
+set1.intersection(set2)  
+{50}
+=>difference
+set1.difference(set2)    
+{100, 40, 10, 20, 30}
+=>discard
+set1.discard(20)   
+set1   
+{50, 100, 40, 10, 30}
 
 
 
+==>Dict
+=>it has the keys and values ----k:v
+=>keys has be unique
+=>values is dulipcates
+=>it is mutable
+=>it has homogenours and heteragenours data
+dict1={1:10,2:20}   
+dict1   
+{1: 10, 2: 20}
+set1.discard(20)   
+set1   
+{50, 100, 40, 10, 30}
+dict1={1:10,2:20}   
+dict1   
+{1: 10, 2: 20}
+dict1[2]   
+20
+dict1[2]=300   
+dict1   
+{1: 10, 2: 300}
+dict2={'rno':'123','name':'Asif'}    
+dict2    
+{'rno': '123', 'name': 'Asif'}
+dict2['rno']    
+'123'
+dict2['rno']=123
+dict2['rno']
+123
+dict2['ph']=12232456789
+dict2    
+{'rno': 123, 'name': 'Asif', 'ph': 12232456789}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Methods::
+=>get
+ph=dict2.get('ph')    
+ph    
+12232456789
+=>keys
+dict2.keys()   
+dict_keys(['rno', 'name', 'ph'])
+=>values
+dict2.values()   
+dict_values([123, 'Asif', 12232456789])
+=>pop
+dict1.pop(2)    
+300
+dict1    
+{1: 10}
 

@@ -1,0 +1,13 @@
+
+MODELS OF SDLC:
+
+1.Waterfall model (linear model / sequence model) 
+	. one by one step 
+	. one phase is starts only when its previous phase is completes 
+	. if any req. changes then the whole cycle is should be restarted
+2. Spiral model 
+3.RAD model
+4.Prototype
+5.V 
+6.iterative
+7.Agile model 

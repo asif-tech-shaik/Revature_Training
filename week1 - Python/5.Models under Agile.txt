@@ -1,0 +1,5 @@
+MODELS under AGILE:
+	- scrum (very famous not only in IT)
+	- xp
+	- lean
+	- Kanban
