@@ -1,3 +1,5 @@
+"""DESC: basic operations"""
+
 print('Hello World !')
 
 number1 = int(input('Enter a number: '))
